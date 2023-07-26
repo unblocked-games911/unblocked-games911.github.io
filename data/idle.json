@@ -1,0 +1,70 @@
+[
+    {
+        "slug": "mk",
+        "title": "Game 1",
+        "cat": "idle-games-unblocked",
+        "domain": 7,
+        "ext": 1
+    },
+    {
+        "slug": "cookie-clicker",
+        "title": "Cookie Clicker",
+        "cat": "idle-games-unblocked",
+        "domain": 1
+    },
+    {
+        "slug": "grindcraft",
+        "title": "Grindcraft",
+        "img": "https://slope-game.github.io/new3623/grindcraft/logo.png",
+        "cat": "idle-games-unblocked",
+        "domain":22
+    },
+    {
+        "slug": "idle-breakout",
+        "title": "Idle Breakout",
+        "domain": 22,
+        "img": "https://slope-game.github.io/new3623/idle-breakout/logo.png",
+        "cat": "idle-games-unblocked"
+    },
+    {
+        "slug": "idle-startup-tycoon",
+        "title": "Idle startup tycoon",
+        "cat": "idle-games-unblocked",
+        "domain": 3
+    },
+    {
+        "slug": "idle-mining-empire",
+        "title": "Idle Mining Empire",
+        "cat": "idle-games-unblocked",
+        "domain": 4
+    }, {
+        "slug": "stickmerge",
+        "title": "Stick Merge",
+        "cat": "idle-games-unblocked",
+        "domain": 1
+    },
+    {
+        "slug": "stick-merge-halloween",
+        "title": "Stick Merge Halloween",
+        "cat": "idle-games-unblocked",
+        "domain": 2
+    },
+    {
+        "slug": "idle-dice",
+        "title": "Idle Dice",
+        "cat": "idle-games-unblocked",
+        "domain": 3
+    },
+    {
+        "slug": "idle-miner",
+        "title": "Idle Miner",
+        "cat": "idle-games-unblocked",
+        "domain": 3
+    },
+    {
+        "slug": "merge-cakes",
+        "title": "Merge Cakes",
+        "cat": "idle-games-unblocked",
+        "domain": 1
+    }
+]
