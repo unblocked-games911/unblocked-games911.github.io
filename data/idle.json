@@ -3,8 +3,9 @@
         "slug": "mk",
         "title": "Game 1",
         "cat": "idle-games-unblocked",
-        "domain": 7,
-        "ext": 1
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/newgame/monkey-mart/",
+        "img": "/images/monkey-mart.png"
     },
     {
         "slug": "cookie-clicker",
@@ -66,5 +67,92 @@
         "title": "Merge Cakes",
         "cat": "idle-games-unblocked",
         "domain": 1
-    }
+    },{
+        "slug": "idle-lumber-inc",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://classroomjq.github.io/idle-lumber-inc/",
+        "title": "Idle Lumber Inc",
+        "img": "https://classroomjq.github.io/idle-lumber-inc/logo.png"
+      },
+      {
+        "slug": "ant-art-tycoon",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/ant-art-tycoon/",
+        "title": "Ant Art Tycoon",
+        "img": "https://rebemanae.github.io/ant-art-tycoon/logo.png"
+      },
+      {
+        "slug": "idle-digging-tycoon",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://classroomjq.github.io/idle-digging-tycoon/",
+        "title": "Idle Digging Tycoon",
+        "img": "https://classroomjq.github.io/idle-digging-tycoon/logo.png"
+      },
+      {
+        "slug": "idle-ants",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/idle-ants/",
+        "title": "Idle Ants",
+        "img": "https://bitlifeonline.github.io/idle-ants/logo.png"
+      },
+      {
+        "slug": "idle-success",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://ubg77.github.io/idle-success/",
+        "title": "Idle Success",
+        "img": "https://ubg77.github.io/idle-success/logo.png"
+      },
+      {
+        "slug": "game-of-farmers",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://ubg77.github.io/game-of-farmers/",
+        "title": "Game Of Farmers",
+        "img": "https://ubg77.github.io/game-of-farmers/logo.png"
+      },
+      {
+        "slug": "barbershop-inc",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/barbershop-inc/",
+        "title": "Barbershop Inc",
+        "img": "https://bitlifeonline.github.io/barbershop-inc/logo.png"
+      },
+      {
+        "slug": "merge-monster-army-game",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://ubg77.github.io/merge-monster-army-game/",
+        "title": "Merge Monster Army Game",
+        "img": "https://ubg77.github.io/merge-monster-army-game/logo.png"
+      },
+      {
+        "slug": "merge-alphabet",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/file/merge-alphabet/",
+        "title": "Merge AlPhaBet",
+        "img": "https://slope-game.github.io/file/merge-alphabet/logo.png"
+      },
+      {
+        "slug": "merge-master",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/file/merge-master/",
+        "title": "Merge Master",
+        "img": "https://slope-game.github.io/file/merge-master/logo.png"
+      },
+      {
+        "slug": "merge-rainbow",
+        "cat": "idle-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/file/merge-rainbow/",
+        "title": "Merge RainBow",
+        "img": "https://slope-game.github.io/file/merge-rainbow/logo.png"
+      }
 ]

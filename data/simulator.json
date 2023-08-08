@@ -145,5 +145,12 @@
         "title": "Duck Life 4",
         "cat": "simulator-games-unblocked",
         "domain": 1
-    }
+    },{
+        "slug": "archer-master-3d-castle-defense",
+        "cat": "simulator-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://webglmath.github.io/archer-master-3d-castle-defense/",
+        "title": "Archer Master 3d Castle Defense",
+        "img": "https://webglmath.github.io/archer-master-3d-castle-defense/logo.png"
+      }
 ]

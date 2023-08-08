@@ -63,12 +63,6 @@
         "domain": 1
     },
     {
-        "slug": "drift-dudes",
-        "title": "Drift Dudes",
-        "cat": "car-games-unblocked",
-        "domain": 1
-    },
-    {
       "slug": "moto-x3m-5-pool-party",
       "title": "Moto x3m Pool Party",
       "cat": "car-games-unblocked",
@@ -301,5 +295,124 @@
       "title": "Merge Round Racers",
       "cat": "car-games-unblocked",
       "domain": 6
+    },{
+      "slug": "offroader-v5",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/offroader-v5/",
+      "title": "Offroader V5",
+      "img": "https://classroomjq.github.io/offroader-v5/logo.png"
+    },
+    {
+      "slug": "kart-wars",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/kart-wars/",
+      "title": "Kart Wars",
+      "img": "https://classroomjq.github.io/kart-wars/logo.png"
+    },
+    {
+      "slug": "traffic-rush",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/traffic-rush/",
+      "title": "Traffic Rush",
+      "img": "https://classroomjq.github.io/traffic-rush/logo.png"
+    },
+    {
+      "slug": "grand-prix-hero",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://bitlifeonline.github.io/grand-prix-hero/",
+      "title": "Grand Prix Hero",
+      "img": "https://bitlifeonline.github.io/grand-prix-hero/logo.png"
+    },
+    {
+      "slug": "cars-thief-tank-edition",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/cars-thief-tank-edition/",
+      "title": "Cars Thief Tank Edition",
+      "img": "https://classroomjq.github.io/cars-thief-tank-edition/logo.png"
+    },
+    {
+      "slug": "survival-race",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://bitlifeonline.github.io/survival-race/",
+      "title": "Survival Race",
+      "img": "https://bitlifeonline.github.io/survival-race/logo.png"
+    },
+    {
+      "slug": "crazy-cars",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/crazy-cars/",
+      "title": "Crazy Cars",
+      "img": "https://classroomjq.github.io/crazy-cars/logo.png"
+    },
+    {
+      "slug": "superbike-hero",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/superbike-hero/",
+      "title": "Superbike Hero",
+      "img": "https://ubg77.github.io/superbike-hero/logo.png"
+    },
+    {
+      "slug": "tricks",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/tricks/",
+      "title": "Tricks",
+      "img": "https://rebemanae.github.io/tricks/logo.png"
+    },
+    {
+      "slug": "cyber-cars-punk-racing",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/cyber-cars-punk-racing/",
+      "title": "Cyber Cars Punk Racing",
+      "img": "https://classroomjq.github.io/cyber-cars-punk-racing/logo.png"
+    },
+    {
+      "slug": "super-mx-the-champion",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/super-mx-the-champion/",
+      "title": "Super Mx The Champion",
+      "img": "https://rebemanae.github.io/super-mx-the-champion/logo.png"
+    },
+    {
+      "slug": "super-star-car",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://bitlifeonline.github.io/super-star-car/",
+      "title": "Super Star Car",
+      "img": "https://bitlifeonline.github.io/super-star-car/logo.png"
+    },
+    {
+      "slug": "drift-dudes",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/drift-dudes/",
+      "title": "Drift Dudes",
+      "img": "https://ubg77.github.io/drift-dudes/logo.png"
+    },
+    {
+      "slug": "stock-car-hero",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/stock-car-hero/",
+      "title": "Stock Car Hero",
+      "img": "https://ubg77.github.io/stock-car-hero/logo.png"
+    },
+    {
+      "slug": "traffic-mania",
+      "cat": "car-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://webglmath.github.io/traffic-mania/",
+      "title": "Traffic mania",
+      "img": "https://webglmath.github.io/traffic-mania/logo.png"
     }
   ]

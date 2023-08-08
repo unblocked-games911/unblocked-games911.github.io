@@ -55,23 +55,35 @@ if(search_arena.style.display == "block"){
 }
 }
 var listGame;
-fetch("/data/hot.json",{
-headers: {
-    'Content-Type': 'application/json',
-    },
-}).then(response => response.json())
-.then(data => {
-    listGame = data;
+var listSearch = [];
+fetch("/data/all.json",{
+    headers: {
+        'Content-Type': 'application/json',
+        },
+    }).then(response => response.json())
+    .then(data => {
+        listSearch = data;
 });
 function liveSearch(){
+    if(listSearch.length < 1){
+        fetch("/data/all.json",{
+            headers: {
+                'Content-Type': 'application/json',
+                },
+            }).then(response => response.json())
+            .then(data => {
+                listSearch = data;
+        });
+    }
+    console.log(listSearch.length);
     var x = document.getElementById("search_input_new").value;
     console.log(x);
     
     let html = "";
     if(x != ""){
-    for (var j=0; j<listGame.length; j++) {
-        if (listGame[j].title.toUpperCase().indexOf(x.toUpperCase()) >= 0) {
-            var item = listGame[j];
+    for (var j=0; j<listSearch.length; j++) {
+        if (listSearch[j].title.toUpperCase().indexOf(x.toUpperCase()) >= 0) {
+            var item = listSearch[j];
             var slug = item.slug;
             if(item.hasOwnProperty("cat")){
               slug = `${item.cat}/${item.slug}`;
@@ -144,50 +156,59 @@ window.addEventListener('load', function() {
         loadGA();
         loadAds();
     }
-    var html_recommend = "";
-  for (let index = 0; index <listGame.length; index++) {
-    var item = listGame[index];
-    var slug = item.slug;
-    if(item.hasOwnProperty("cat")){
-        slug = `${item.cat}/${item.slug}`;
-    }
-    var img = `/images/${item.slug}.png`;
-    if(item.hasOwnProperty("img")){
-        if(item.img.indexOf("https") !== -1){
-        img = item.img;
-        } else {
-        img = `/images/${item.img}`;
-        }
-        
-    }
-    html_recommend += `<a class="game-icon-a group bg-gray-200 relative hover:scale-110" style="grid-row-start:span 1;grid-column-end:span 1;width:94px;height:94px" href="/${slug}">
-    <img alt="${item.title}" src="${img}" width="94" height="94" decoding="async" data-nimg="1" class="game-icon-img bg-green-100 font-xs" loading="lazy" style="color:transparent;background-color:inherit;width:94px;height:94px">
-    <span class="game-icon-h3">${item.title}</span>
+    fetch("/data/hot.json",{
+        headers: {
+            'Content-Type': 'application/json',
+            },
+        }).then(response => response.json())
+        .then(data => {
+            listGame = data;
+            var html_recommend = "";
+            for (let index = 0; index <listGame.length; index++) {
+                var item = listGame[index];
+                var slug = item.slug;
+                if(item.hasOwnProperty("cat")){
+                    slug = `${item.cat}/${item.slug}`;
+                }
+                var img = `/images/${item.slug}.png`;
+                if(item.hasOwnProperty("img")){
+                    if(item.img.indexOf("https") !== -1){
+                    img = item.img;
+                    } else {
+                    img = `/images/${item.img}`;
+                    }
+                    
+                }
+                html_recommend += `<a class="game-icon-a group bg-gray-200 relative hover:scale-110" style="grid-row-start:span 1;grid-column-end:span 1;width:94px;height:94px" href="/${slug}">
+                <img alt="${item.title}" src="${img}" width="94" height="94" decoding="async" data-nimg="1" class="game-icon-img bg-green-100 font-xs" loading="lazy" style="color:transparent;background-color:inherit;width:94px;height:94px">
+                <span class="game-icon-h3">${item.title}</span>
 
-  </a>`;
+            </a>`;
+                
+            }
+            var html_popular = "";
+            for (let j = 0; j < 12; j++) {
+                var item = listGame[j];
+                var slug = item.slug;
+                if(item.hasOwnProperty("cat")){
+                    slug = `${item.cat}/${item.slug}`;
+                }
+                var img = `/images/${item.slug}.png`;
+                if(item.hasOwnProperty("img")){
+                    if(item.img.indexOf("https") !== -1){
+                    img = item.img;
+                    } else {
+                    img = `/images/${item.img}`;
+                    }
+                    
+                }
+                html_popular += `<a class="m-2 game-icon-a group w-[94px]" href="/${slug}">
+                <img alt="${item.title}" src="${img}" width="94" height="94" decoding="async" data-nimg="1" class="game-icon-img w-[94px] h-[94px]" loading="lazy" style="color: transparent;">
+                <h3 class="game-icon-h3">${item.title}</h3></a>`
+                
+            }
+            document.querySelector("#recommend-games").innerHTML = html_recommend;
+            document.querySelector("#popular-week").innerHTML = html_popular;
+        });
     
-  }
-  var html_popular = "";
-  for (let j = 0; j < 12; j++) {
-    var item = listGame[j];
-    var slug = item.slug;
-    if(item.hasOwnProperty("cat")){
-        slug = `${item.cat}/${item.slug}`;
-    }
-    var img = `/images/${item.slug}.png`;
-    if(item.hasOwnProperty("img")){
-        if(item.img.indexOf("https") !== -1){
-        img = item.img;
-        } else {
-        img = `/images/${item.img}`;
-        }
-        
-    }
-    html_popular += `<a class="m-2 game-icon-a group w-[94px]" href="/${slug}">
-    <img alt="${item.title}" src="${img}" width="94" height="94" decoding="async" data-nimg="1" class="game-icon-img w-[94px] h-[94px]" loading="lazy" style="color: transparent;">
-    <h3 class="game-icon-h3">${item.title}</h3></a>`
-    
-  }
-  document.querySelector("#recommend-games").innerHTML = html_recommend;
-  document.querySelector("#popular-week").innerHTML = html_popular;
 });

@@ -54,5 +54,36 @@
         "title": "Ovo",
         "cat": "adventure-games-unblocked",
         "domain": 1
-    }
+    },{
+        "slug": "bad-ice-cream-3",
+        "cat": "adventure-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/bad-ice-cream-3/",
+        "title": "Bad Ice Cream 3",
+        "img": "https://rebemanae.github.io/bad-ice-cream-3/logo.png"
+      },
+      {
+        "slug": "bad-ice-cream-2",
+        "cat": "adventure-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/bad-ice-cream-2/",
+        "title": "Bad Ice Cream 2",
+        "img": "https://rebemanae.github.io/bad-ice-cream-2/logo.png"
+      },
+      {
+        "slug": "bad-ice-cream",
+        "cat": "adventure-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/bad-ice-cream/",
+        "title": "Bad Ice Cream",
+        "img": "https://bitlifeonline.github.io/bad-ice-cream/logo.png"
+      },
+      {
+        "slug": "jumphobia",
+        "cat": "adventure-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://ubg77.github.io/jumphobia/",
+        "title": "Jumphobia",
+        "img": "https://ubg77.github.io/jumphobia/logo.png"
+      } 
 ]

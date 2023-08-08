@@ -32,6 +32,14 @@
         "domain": 1
     },
     {
+      "slug": "run-3",
+      "cat": "running-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://bitlifeonline.github.io/run-3/",
+      "title": "Run 3",
+      "img": "https://bitlifeonline.github.io/run-3/logo.png"
+    },
+    {
         "slug": "fireboy-and-watergirl-1",
         "title": "Fireboy and watergirl",
         "cat": "2-player-games-unblocked",
@@ -152,5 +160,29 @@
           "cat": "running-games-unblocked",
           "domain": 29,
           "img": "https://slope-game.github.io/newgame/color-road-2/logo.png"
+      },
+      {
+        "slug": "evw",
+        "cat": "action-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://classroomjq.github.io/evw/",
+        "title": "Evw",
+        "img": "https://classroomjq.github.io/evw/logo.png"
+      },
+      {
+        "slug": "holeio",
+        "cat": "action-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://classroomjq.github.io/holeio/",
+        "title": "Holeio",
+        "img": "https://classroomjq.github.io/holeio/logo.png"
+      },
+      {
+        "slug": "wrc",
+        "cat": "action-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://classroomjq.github.io/wrc/",
+        "title": "Wrc",
+        "img": "https://classroomjq.github.io/wrc/logo.png"
       }
 ]

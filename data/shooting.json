@@ -144,30 +144,6 @@
       "game": "https://classroomjq.github.io/class276223/armedforces/"
     },
     {
-      "slug": "battle-forces",
-      "title": "BF",
-      "cat": "shooting-games-unblocked",
-      "domain": 20,
-      "img": "shootimg/battle-forces.png",
-      "game": "https://classroomjq.github.io/class276223/battle-forces/"
-    },
-    {
-      "slug": "hammer-reload-2",
-      "title": "Hammer",
-      "cat": "shooting-games-unblocked",
-      "domain": 20,
-      "img": "shootimg/hammer-reload-2.jpg",
-      "game": "https://classroomjq.github.io/class276223/hammer-2-reloaded/"
-    },
-    {
-      "slug": "blockpost",
-      "title": "BP",
-      "cat": "shooting-games-unblocked",
-      "domain": 20,
-      "img": "shootimg/blockpost.png",
-      "game": "https://bitlifeonline.github.io/class19523/blockpost/"
-    },
-    {
       "slug": "funny-shooter",
       "title": "Funny Shooter",
       "cat": "shooting-games-unblocked",
@@ -189,7 +165,7 @@
       "cat": "shooting-games-unblocked",
       "domain": 20,
       "img": "shootimg/funny-battle.jpeg",
-      "game": "https://bitlifeonline.github.io/class2623/funny-battle/"
+      "game": "https://bitlifeonline.github.io/class2623/funny-battle-simulator/"
     },
     {
       "slug": "funny-battle-2",
@@ -197,7 +173,7 @@
       "cat": "shooting-games-unblocked",
       "domain": 20,
       "img": "shootimg/funny-battle-2.jpeg",
-      "game": "https://bitlifeonline.github.io/class2623/funny-battle-2/"
+      "game": "https://bitlifeonline.github.io/class2623/funny-battle-simulator-2/"
     },
     {
       "slug": "funny-shooter-2",
@@ -302,5 +278,44 @@
       "domain": 20,
       "img": "shootimg/zombie-shooter-2.jpeg",
       "game": "https://bitlifeonline.github.io/class2623/zombies-shooter-part-2/"
+    },{
+      "slug": "blockpost",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/blockpost/",
+      "title": "Blockpost",
+      "img": "https://classroomjq.github.io/blockpost/logo.png"
+    },
+    {
+      "slug": "superhot-prototype",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/superhot-prototype/",
+      "title": "Superhot Prototype",
+      "img": "https://classroomjq.github.io/superhot-prototype/logo.png"
+    },
+    {
+      "slug": "shootz",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://ubg77.github.io/shootz/",
+      "title": "Shootz",
+      "img": "https://ubg77.github.io/shootz/logo.png"
+    },
+    {
+      "slug": "hammer-2-reloaded",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://rebemanae.github.io/hammer-2-reloaded/",
+      "title": "Hammer 2 Reloaded",
+      "img": "https://rebemanae.github.io/hammer-2-reloaded/logo.png"
+    },
+    {
+      "slug": "battle-forces",
+      "cat": "shooting-games-unblocked",
+      "domain": 99,
+      "urlgame": "https://classroomjq.github.io/battle-forces/",
+      "title": "Battle Forces",
+      "img": "https://classroomjq.github.io/battle-forces/logo.png"
     }
   ]

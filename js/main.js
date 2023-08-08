@@ -99,6 +99,17 @@ window.addEventListener('load', function() {
       </div>
     </li>
   </a>
+  <a href="/stickman-games-unblocked">
+    <li class="cat-item">
+      <span class="icon-category">
+        <img src="/images/icon/other.svg" alt="Stickman" width="40" height="40">
+      </span>
+      <div class="cat-info">
+        <span class="cat-name">Stickman</span>
+        <div class="cat-game-amount">5 games</div>
+      </div>
+    </li>
+  </a>
   
 </ul>`;
 document.querySelector('#list-cat').innerHTML = html_cat;
@@ -142,6 +153,47 @@ document.querySelector('#list-cat').innerHTML = html_cat;
         }
        
         this.document.querySelector('#all-item').innerHTML = html;
+    })
+    var file_name = document.querySelector('#new-item').dataset.item;
+    fetch(`/data/${file_name}.json`).then(response => response.json())
+    .then(data => {
+        var html = "";
+        for (let index = 0; index < data.length; index++) {
+            const item = data[index];
+            var slug = item.slug;
+            if(item.hasOwnProperty("cat")){
+              slug = `${item.cat}/${item.slug}`;
+            }
+            var img = `/images/${item.slug}.png`;
+            if(item.hasOwnProperty("img")){
+              if(item.img.indexOf("https") !== -1){
+                img = item.img;
+              } else {
+                img = `/images/${item.img}`;
+              }
+             
+            }
+            var domain = item.domain;
+            if(domain <= 5){
+              
+            }
+            html += `<div class="col-lg-2 col-md-4 col-6 grid-3">
+            <a href="/${slug}">
+              <div class="game-item">
+                <div class="list-game">
+                  <div class="list-thumbnail">
+                    <img src="${img}" alt="${item.title}">
+                  </div>
+                  <div class="list-info">
+                    <div class="list-title">${item.title}</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>`;
+        }
+       
+        this.document.querySelector('#new-item').innerHTML = html;
     })
     checkStore();
     if(window.location.href.indexOf("localhost") == -1 && window.location.href.indexOf("127.0.0.1") == -1 && window.location.href.indexOf("tunnel-rush.html") == -1 && window.location.href.indexOf("monkey-mart.html") == -1){

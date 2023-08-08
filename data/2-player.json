@@ -80,5 +80,68 @@
         "title": "Football Legends",
         "cat": "2-player-games-unblocked",
         "domain": 1
-    }
+    },{
+        "slug": "duo-survival-3",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/duo-survival-3/",
+        "title": "Duo Survival 3",
+        "img": "https://rebemanae.github.io/duo-survival-3/logo.png"
+      },
+      {
+        "slug": "zoom-be-2",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/zoom-be-2/",
+        "title": "Zoom Be 2",
+        "img": "https://bitlifeonline.github.io/zoom-be-2/logo.png"
+      },
+      {
+        "slug": "duo-survival-2",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/duo-survival-2/",
+        "title": "Duo Survival 2",
+        "img": "https://rebemanae.github.io/duo-survival-2/logo.png"
+      },
+      {
+        "slug": "zoom-be-3",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/zoom-be-3/",
+        "title": "Zoom Be 3",
+        "img": "https://bitlifeonline.github.io/zoom-be-3/logo.png"
+      },
+      {
+        "slug": "zoom-be",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://bitlifeonline.github.io/zoom-be/",
+        "title": "Zoom Be",
+        "img": "https://bitlifeonline.github.io/zoom-be/logo.png"
+      },
+      {
+        "slug": "thumb-fighter-halloween",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/thumb-fighter-halloween/",
+        "title": "Thumb Fighter Halloween",
+        "img": "https://rebemanae.github.io/thumb-fighter-halloween/logo.png"
+      },
+      {
+        "slug": "thumb-fighter-christmas",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/thumb-fighter-christmas/",
+        "title": "Thumb Fighter Christmas",
+        "img": "https://rebemanae.github.io/thumb-fighter-christmas/logo.png"
+      },
+      {
+        "slug": "rooftop-snipers-2",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://rebemanae.github.io/rooftop-snipers-2/",
+        "title": "Rooftop Snipers 2",
+        "img": "https://rebemanae.github.io/rooftop-snipers-2/logo.png"
+      }
 ]
