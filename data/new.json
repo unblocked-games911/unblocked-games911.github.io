@@ -142,5 +142,51 @@
         "urlgame": "https://rebemanae.github.io/vex-challenges/",
         "title": "Vex Challenges",
         "img": "https://rebemanae.github.io/vex-challenges//logo.png"
+      },
+      {
+          "slug": "fireboy-and-watergirl-1",
+          "title": "Fireboy and watergirl",
+          "cat": "2-player-games-unblocked",
+          "domain": 27
+      },
+      {
+        "slug": "fireboy-and-watergirl-6",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-6/",
+        "title": "Fireboy & Watergirl 6 Fairy Tales",
+        "img": "https://slope-game.github.io/fireboy-water-6/logo.png"
+      },
+      {
+        "slug": "fireboy-and-watergirl-5",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-5/",
+        "title": "Fireboy & Watergirl 5 Elements",
+        "img": "https://slope-game.github.io/fireboy-water-5/logo.png"
+      },
+      {
+        "slug": "fireboy-and-watergirl-4",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-4/",
+        "title": "Fireboy & Watergirl 4 Crystal Temple",
+        "img": "https://slope-game.github.io/fireboy-water-4/logo.png"
+      },
+      {
+        "slug": "fireboy-and-watergirl-3",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-3/",
+        "title": "Fireboy & Watergirl 3 Ice Temple",
+        "img": "https://slope-game.github.io/fireboy-water-3/logo.png"
+      },
+      {
+        "slug": "fireboy-and-watergirl-2",
+        "cat": "2-player-games-unblocked",
+        "domain": 99,
+        "urlgame": "https://slope-game.github.io/fireboy-water-2/",
+        "title": "Fireboy & Watergirl 2 Light Temple",
+        "img": "https://slope-game.github.io/fireboy-water-2/logo.png"
       }
 ]
