@@ -205,12 +205,12 @@ document.querySelector('#list-cat').innerHTML = html_cat;
 function loadGA(){
     
   var  r = document.createElement("script");
-r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-BF3BWX3NND"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-M3MLF0HSW8"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-BF3BWX3NND');
+    gtag('config', 'G-M3MLF0HSW8');
 
   },document.head.appendChild(r);
   
