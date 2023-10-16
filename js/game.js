@@ -154,7 +154,7 @@ window.addEventListener('load', function() {
     // loadGA();
     if(window.location.href.indexOf("localhost") == -1 && window.location.href.indexOf("127.0.0.1") == -1 && window.location.href.indexOf("tunnel-rush.html") == -1 && window.location.href.indexOf("monkey-mart.html") == -1){
         loadGA();
-        loadAds();
+        //loadAds();
     }
     fetch("/data/hot.json",{
         headers: {
